@@ -1,0 +1,116 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "attack",
+			"inputs": [
+				{"name":"myaddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "acceptwar",
+			"inputs": [
+				{"name":"pow","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "mygetpowerofattack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "mygetdefense",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "mygethealth",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "mygetaddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"address"}
+			]
+		},
+		{
+			"name": "sendallvalanddestroy",
+			"inputs": [
+				{"name":"dest","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "powerofattack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"powerofattack","type":"uint256"}
+			]
+		},
+		{
+			"name": "defense",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"defense","type":"uint256"}
+			]
+		},
+		{
+			"name": "health",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"health","type":"uint256"}
+			]
+		},
+		{
+			"name": "calleraddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"calleraddress","type":"address"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"powerofattack","type":"uint256"},
+		{"name":"defense","type":"uint256"},
+		{"name":"health","type":"uint256"},
+		{"name":"p","type":"uint256"},
+		{"name":"calleraddress","type":"address"}
+	]
+}
